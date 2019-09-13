@@ -8,7 +8,7 @@ metadata:
   annotations:
     description: A stateless Nginx Pod deployment yaml
 spec:                    # A Deployment also has a spec section
-  replicas: 2            # The desired number of Pods
+  replicas: 4            # The desired number of Pods
   strategy:
     type: RollingUpdate   # The Deployment will update Pods in a rolling update fashion
     rollingUpdate:
